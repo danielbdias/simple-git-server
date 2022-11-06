@@ -1,0 +1,7 @@
+version: "3"
+
+services:
+  gitserver:
+    image: danielbdias/simple-git-server:latest
+    ports:
+      - "9010:80"
